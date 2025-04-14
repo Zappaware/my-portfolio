@@ -40,6 +40,38 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css" />
 
+    <style>
+      .footer-section {
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 60px 0 20px;
+      }
+      .footer-widget h3 {
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      .footer-links li a,
+      .contact-info li,
+      .social-links li a {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      .footer-links li a:hover,
+      .social-links li a:hover {
+        color: #007bff;
+      }
+      .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 40px;
+        padding-top: 20px;
+      }
+      .footer-bottom p {
+        color: #fff;
+        margin: 0;
+      }
+    </style>
+
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
   </head>
   <body data-spy="scroll" data-target="#navmenu" data-offset="70">
@@ -92,7 +124,7 @@
           <h5>WEB DEVELOPER & UX DESIGNER</h5>
           <h1><span class="rotate">Creativity, Designing, Developing</span></h1>
           <p>
-            I’m a Creative Designer and I make things work.<br />
+            I'm a Creative Designer and I make things work.<br />
             Turning your dreams into reality.
           </p>
           <ul class="social-link">
@@ -131,7 +163,7 @@
                 <h2>About Us</h2>
               </div>
               <p>
-                I’m a Graphic Designer and I make things work.without
+                I'm a Graphic Designer and I make things work.without
                 cross-media value. Quickly maximize timely deliverables for
                 real-time schemas. Dramatically maintain clicks-and-mortar
                 solutions without functional solutions.
@@ -159,7 +191,7 @@
             <div class="section-heading pdl-80">
               <h2 class="mb-20">Services</h2>
               <p class="mb-20">
-                I’m a Creative Designer and I make things work.<br />
+                I'm a Creative Designer and I make things work.<br />
                 Turning your dreams into reality.
               </p>
             </div>
@@ -170,7 +202,10 @@
                 <div class="service-content">
                   <i class="icon-layers"></i>
                   <h3>Interface Design</h3>
-                  <p>Lorem Ipsum is simply more dummy the industry.</p>
+                  <p>
+                    Creating intuitive and visually appealing user interfaces
+                    that enhance user experience and engagement.
+                  </p>
                 </div>
               </div>
               <!-- Service-1 -->
@@ -178,7 +213,10 @@
                 <div class="service-content">
                   <i class="icon-tools"></i>
                   <h3>Themes Development</h3>
-                  <p>Lorem Ipsum is simply more dummy the industry.</p>
+                  <p>
+                    Custom theme development tailored to your brand identity and
+                    business requirements.
+                  </p>
                 </div>
               </div>
               <!-- Service-2 -->
@@ -186,7 +224,10 @@
                 <div class="service-content">
                   <i class="icon-bargraph"></i>
                   <h3>Content Marketing</h3>
-                  <p>Lorem Ipsum is simply more dummy the industry.</p>
+                  <p>
+                    Strategic content creation and optimization to boost your
+                    online presence and engagement.
+                  </p>
                 </div>
               </div>
               <!-- Service-3 -->
@@ -194,7 +235,10 @@
                 <div class="service-content">
                   <i class="icon-phone"></i>
                   <h3>Mobile Apps</h3>
-                  <p>Lorem Ipsum is simply more dummy the industry.</p>
+                  <p>
+                    Native and cross-platform mobile application development for
+                    iOS and Android devices.
+                  </p>
                 </div>
               </div>
               <!-- Service-4 -->
@@ -202,7 +246,10 @@
                 <div class="service-content">
                   <i class="icon-bike"></i>
                   <h3>Responsive Design</h3>
-                  <p>Lorem Ipsum is simply more dummy the industry.</p>
+                  <p>
+                    Creating websites that adapt seamlessly across all devices
+                    and screen sizes.
+                  </p>
                 </div>
               </div>
               <!-- Service-5 -->
@@ -210,7 +257,10 @@
                 <div class="service-content">
                   <i class="icon-genius"></i>
                   <h3>Free Updates</h3>
-                  <p>Lorem Ipsum is simply more dummy the industry.</p>
+                  <p>
+                    Regular maintenance and updates to keep your website secure
+                    and up-to-date.
+                  </p>
                 </div>
               </div>
               <!-- Service-6 -->
@@ -228,7 +278,7 @@
             <div class="section-heading pdl-80">
               <h2 class="mb-20">Portfolio</h2>
               <p class="mb-20">
-                I’m a Creative Designer and I make things work.<br />
+                I'm a Creative Designer and I make things work.<br />
                 Turning your dreams into reality.
               </p>
               <a href="#" class="default-btn">Our All Works</a>
@@ -434,9 +484,61 @@
     </section>
     <!-- contat-section -->
 
-    <footer class="footer-section align-center">
+    <footer class="footer-section">
       <div class="container">
-        <p>&copy; 2019 Alison Powered by TeamXcel</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h3>Contact Us</h3>
+              <ul class="contact-info">
+                <li>
+                  <i class="fa fa-map-marker"></i> Río Salado 474, Placetas.
+                  Colima, Col. México.
+                </li>
+                <li><i class="fa fa-phone"></i> +52 312 298 5851</li>
+                <li><i class="fa fa-envelope"></i> info@vantesweb.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h3>Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h3>Follow Us</h3>
+              <ul class="social-links">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-md-12">
+              <p>&copy; 2024 Vantes Web. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
     <!-- /.footer_section -->
