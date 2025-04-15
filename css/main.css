@@ -738,7 +738,7 @@ ul.nav > li > a.active {
    Service Section
    ========================================================================== */
 .service-section {
-  background-image: url(../img/services-background.jpeg);
+  background-image: url(../img/services-background.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
